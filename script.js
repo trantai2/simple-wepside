@@ -43,14 +43,16 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Em chắc chưa",
-    "Em không kiếm được ai như anh đâu",
-    "Đừng mà công chúa của anh",
-    "Em đang làm trái tim anh tan nát đó",
-    "Anh nguyện dâng hiến trái tim này cho em",
-    "Em nguyện làm người yêu anh nhé <3",
-    "Em không có quyền lựa trọn nào khác đâu",
-    "Em đồng ý đi mà",
+    "bạn chắc chưa",
+    "bạn sẽ không kiếm được ai như tui đâu",
+    "đừng mà nàng tiên của tui!",
+    "bạn đang làm trái tim tui tan nát đó",
+    "tui nguyện dâng hiến trái tim này cho bạn",
+    "bạn nguyện làm người yêu tui nhé <3",
+    "bạn không có quyền lựa trọn nào khác đâu",
+    "bạn đồng ý đi mà",
+    "đi mà",
+    "xin á ;-;",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
